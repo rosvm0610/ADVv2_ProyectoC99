@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body
+{
+    background-image: url(https://img.freepik.com/fotos-premium/lindos-fondos-pantalla-geniales-fondos-pantalla-geniales-telefono_953733-17.jpg?w=360);
+    background-size: contain;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(226, 168, 43);
+}
+h1{
+    font-family: 'Whisper', cursive;
+    font-size: 100px;color: antiquewhite;
+}
+
+h4
+{
+    color:rgb(238, 255, 0);
+}
+
+#camera
+{
+    width: 500px;
+    height: 400px;
+    border:1px solid rgb(87, 2, 2);
+}
+
+img
+{
+    width: 37%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+.column
+{
+    display: inline;
+    padding: 10px;
+}
+img:hover{
+    border-radius: 140px;
+}
+.copy_right_footer {
+    position: fixed;
+    color: #000000;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(39, 231, 212);
+    line-height: 3;
+    text-align: center;
+ }
